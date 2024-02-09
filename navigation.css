@@ -1,0 +1,23 @@
+.navbar{
+    width: 200px;
+    background-color: darkcyan;
+    overflow: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li a {
+    display: flex;
+    padding: 10px 16px;
+    color: azure;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: left;
+    text-decoration: none;
+}
+.navbar li a i{
+    margin-right: 30px;
+}
+.navbar a:hover{
+    background-color: brown;
+}

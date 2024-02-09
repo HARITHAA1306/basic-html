@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    height: 50vh;
+    width: 40vh;
+    text-align: center;
+    border-radius: 5px;
+    padding: 80px;
+    box-shadow: 0 2px 4px blue ;
+}
+.hi{
+    font-family: Helvetica;
+    text-align: center;
+}
+.inputdata{
+    margin-bottom: 30px;
+}
+.inputlabel{
+    font-size: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.inputdata input[type="text"],.inputdata input[type="email"],.inputdata input[type="password"]{
+    background-color: lemonchiffon;
+    text-align: left;
+    width:100%;
+    padding: 5px;
+}
+.submit button[type="submit"]{
+    background-color: darkslategray;
+    color: blue;
+    padding: 20px;
+    width:100px;
+    border-radius: 30px;
+}

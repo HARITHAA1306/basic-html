@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+
+}
+.hi{
+    font-family: Helvetica;
+    color: rgb(59, 59, 155);
+    text-align: center;
+}
+.container{
+    background-color:#ffffff;
+    height: 5%;
+    width: 40vh;
+    text-align: center;
+    border-radius: 5px;
+    padding: 80px;
+    box-shadow: 0 2px 4px black;
+}
+
+.inputdata{
+    margin-bottom: 30px;
+}
+.inputdata label{
+    font-size: 20px;
+    font-family: Arial;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.inputdata input[type="text"],.inputdata input[type="password"]{
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 5px;
+}
+.submit button[type="submit"]{
+    background-color: cornflowerblue;
+    color: darkslategrey;
+    padding: 20px;
+    width: 100px;
+    border-radius: 30%;
+}
